@@ -9,12 +9,13 @@ export default function Skills() {
       <Container>
         <div className="skills-container">
           <ParallaxProvider>
-            <Parallax
-              translateX={["-400px", "0px"]}
-              scale={[0.75, 1]}
-              rotate={[-180, 0]}
-              easing="easeInQuad"
-            >
+          <Parallax
+                  translateX={["-400px", "0px"]}
+                  translateY={["-100px", "0px"]}
+                  scale={[0.55, 1]}
+                  rotate={[-40, 0]}
+                  easing="easeInQuad"
+                >
               <h2>
                 Skills in <br />
                 my arsenal.
@@ -23,9 +24,10 @@ export default function Skills() {
             <div className="skills-content">
               <ul className="skills-list">
                 <Parallax
-                  translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateX={["400px", "0px"]}
+                  translateY={["100px", "0px"]}
+                  scale={[0.5, 1]}
+                  rotate={[40, 0]}
                   easing="easeInQuad"
                 >
                 <li className="skills-items">React</li>
@@ -33,17 +35,21 @@ export default function Skills() {
                 </Parallax>
                 <Parallax
                   translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateY={["-100px", "0px"]}
+                  scale={[0.55, 1]}
+                  rotate={[-40, 0]}
                   easing="easeInQuad"
                 >
                 <li className="skills-items">HTML 5</li>
 
                 </Parallax>
                 <Parallax
-                  translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateX={["400px", "0px"]}
+                  translateY={["100px", "0px"]}
+                  scale={[0.5, 1]}
+                  rotate={[40, 0]}
+                  startScroll={100}
+                  endScroll={2000}
                   easing="easeInQuad"
                 >
                 <li className="skills-items">CSS 3</li>
@@ -51,17 +57,19 @@ export default function Skills() {
                 </Parallax>
                 <Parallax
                   translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateY={["-100px", "0px"]}
+                  scale={[0.55, 1]}
+                  rotate={[-40, 0]}
                   easing="easeInQuad"
                 >
                 <li className="skills-items">Javscript</li>
 
                 </Parallax>
                 <Parallax
-                  translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateX={["400px", "0px"]}
+                  translateY={["100px", "0px"]}
+                  scale={[0.5, 1]}
+                  rotate={[40, 0]}
                   easing="easeInQuad"
                 >
                 <li className="skills-items">Jquery</li>
@@ -69,32 +77,36 @@ export default function Skills() {
                 </Parallax>
                 <Parallax
                   translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateY={["-100px", "0px"]}
+                  scale={[0.55, 1]}
+                  rotate={[-40, 0]}
                   easing="easeInQuad"
                 >
                   <li className="skills-items">Bootstrap</li>
                 </Parallax>
                 <Parallax
-                  translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateX={["400px", "0px"]}
+                  translateY={["100px", "0px"]}
+                  scale={[0.5, 1]}
+                  rotate={[40, 0]}
                   easing="easeInQuad"
                 >
                   <li className="skills-items">Tailwind CSS</li>
                 </Parallax>
                 <Parallax
                   translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateY={["-100px", "0px"]}
+                  scale={[0.55, 1]}
+                  rotate={[-40, 0]}
                   easing="easeInQuad"
                 >
                   <li className="skills-items">Figma</li>
                 </Parallax>
                 <Parallax
-                  translateX={["-400px", "0px"]}
-                  scale={[0.75, 1]}
-                  rotate={[-180, 0]}
+                  translateX={["400px", "0px"]}
+                  translateY={["100px", "0px"]}
+                  scale={[0.5, 1]}
+                  rotate={[40, 0]}
                   easing="easeInQuad"
                 >
                   <li className="skills-items">Github</li>
