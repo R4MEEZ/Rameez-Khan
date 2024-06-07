@@ -6,13 +6,18 @@ export const useIntersectionObserver = () => {
   const ref = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      const entry = entries[0];
-      if (entry.isIntersecting) {
-        setIsVisible(true);
-        setHasBeenVisible(true);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          setHasBeenVisible(true);
+        }
+      },
+      {
+        threshold: 0, // Trigger as soon as the first pixel is in the viewport
       }
-    });
+    );
 
     const currentRef = ref.current;
 

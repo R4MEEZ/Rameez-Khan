@@ -22,7 +22,7 @@ export default function Story() {
               <h2 className="text-center">
                 A Formal
                 <br />
-                Introduction.
+                Introduction
               </h2>
             </div>
             <div ref={myRef} className="story-section">

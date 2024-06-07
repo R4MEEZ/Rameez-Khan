@@ -21,7 +21,7 @@ export default function Review() {
           <div className="reviews-title">
             <h2>
               What my<br />team
-              is saying.
+              is saying
             </h2>
           </div>
           <Swiper

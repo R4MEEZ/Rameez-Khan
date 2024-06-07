@@ -5,7 +5,6 @@ import "./Navbar.css";
 import { Link } from "react-scroll";
 import { useIntersectionObserver } from "../../Components/Hooks/useIntersectionObserver";
 
-
 export default function Navbar() {
   const [navShow, setNavShow] = useState(false);
   const [myRef, isVisible, hasBeenVisible] = useIntersectionObserver();
@@ -66,7 +65,30 @@ export default function Navbar() {
                 Story
               </Link>
             </li>
-            <li className={navShow ? "shrink" : "expand"}>Skills</li>
+            <li className={navShow ? "shrink" : "expand"}>
+              <Link
+                to="Skills"
+                spy={true}
+                smooth={true}
+                duration={1}
+                activeClass="active"
+                className="nav-link"
+              >
+                Skills
+              </Link>
+            </li>
+            <li className={navShow ? "shrink" : "expand"}>
+            <Link
+                to="Work"
+                spy={true}
+                smooth={true}
+                duration={1}
+                activeClass="active"
+                className="nav-link"
+              >
+                Work
+              </Link>
+            </li>
             <li className={navShow ? "shrink" : "expand"}>
               <Link
                 to="Reviews"
@@ -79,7 +101,6 @@ export default function Navbar() {
                 Review
               </Link>
             </li>
-            <li className={navShow ? "shrink" : "expand"}>Work</li>
             <li className={`connect-btn ${navShow ? "shrink" : "expand"}`}>
               <Link
                 to="connect"

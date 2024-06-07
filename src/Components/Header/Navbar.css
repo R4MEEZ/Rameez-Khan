@@ -175,19 +175,19 @@
 }
 
 .expand:nth-child(5) {
-  animation-delay: 100ms;
-}
-
-.expand:nth-child(4) {
-  animation-delay: 140ms;
-}
-
-.expand:nth-child(3) {
   animation-delay: 180ms;
 }
 
-.expand:nth-child(2) {
+.expand:nth-child(4) {
+  animation-delay: 200ms;
+}
+
+.expand:nth-child(3) {
   animation-delay: 220ms;
+}
+
+.expand:nth-child(2) {
+  animation-delay: 240ms;
 }
 
 .expand:nth-child(1) {

@@ -3,29 +3,129 @@
   text-align: center;
 }
 
+/****** skills-card *******/
+
 .skills-container {
+  text-align: center;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* height: 100vh; */
+  gap: 33px;
+  margin-bottom: 120px;
 }
-
 
 .skills-list {
-  list-style-type: none;
-  padding: 0;
   display: flex;
-  gap: 10px;
-  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  gap: 15px;
 }
 
-.skills-list li{
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
+.skills-card {
+  /* border: 1px solid rgba(128, 128, 128, 0.614); */
+  /* box-shadow: 0 4px 35px rgba(0,0,0,.1); */
+  width: 195px;
+  height: 285px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: black;
+  transition: 0.2s ease-in-out;
 }
 
+.img {
+  height: 30%;
+  position: absolute;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+}
 
+.textBox {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.textBox > .text {
+  font-weight: bold;
+}
+
+.textBox > .head {
+  font-size: 20px;
+}
+
+.textBox > .price {
+  font-size: 17px;
+}
+
+.textBox > span {
+  font-size: 12px;
+  color: lightgrey;
+}
+
+.skills-card:hover > .textBox {
+  opacity: 1;
+}
+
+.skills-card:hover > .img {
+  height: 60%;
+  filter: blur(7px);
+  animation: anim 3s infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.skills-card:hover {
+  transform: scale(1.04) rotate(-1deg);
+}
+
+.skills-list-1 {
+  display: flex;
+  transform: translateX(-200px);
+  opacity: 0;
+  gap: 15px;
+  transition: all 0.5s ease-out;
+}
+
+.skills-list-2 {
+  display: flex;
+  transform: translateX(200px);
+  opacity: 0;
+  gap: 15px;
+  transition: all 0.5s ease-out;
+}
+
+.skills-list-1.Yes {
+  transform: translateX(0px);
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.skills-list-2.Yes {
+  transform: translateX(0px);
+  opacity: 1;
+}
