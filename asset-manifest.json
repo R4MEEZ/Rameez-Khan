@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rameez-Khan/static/css/main.77cf6875.css",
-    "main.js": "/Rameez-Khan/static/js/main.d6f21f5e.js",
+    "main.css": "/Rameez-Khan/static/css/main.257d91e0.css",
+    "main.js": "/Rameez-Khan/static/js/main.667a5add.js",
     "static/js/453.ace21015.chunk.js": "/Rameez-Khan/static/js/453.ace21015.chunk.js",
     "static/media/SF-Bold.otf": "/Rameez-Khan/static/media/SF-Bold.170e68ac3f4c79ef407d.otf",
     "static/media/silverfork-site.png": "/Rameez-Khan/static/media/silverfork-site.2ea83f9261713f7c8bd1.png",
@@ -12,6 +12,7 @@
     "static/media/res1.png": "/Rameez-Khan/static/media/res1.60c1a199cad6cbe886a0.png",
     "static/media/Ariss-logo.png": "/Rameez-Khan/static/media/Ariss-logo.71b79502fcc3fe299cf0.png",
     "static/media/crisfood.png": "/Rameez-Khan/static/media/crisfood.8630c83e9492bea3f7fd.png",
+    "static/media/Rameez Khan's Resume.pdf": "/Rameez-Khan/static/media/Rameez Khan's Resume.52a9b15e92e6103bef93.pdf",
     "static/media/digiverse.png": "/Rameez-Khan/static/media/digiverse.938edbbb9022c3674902.png",
     "static/media/digiverse-logo.png": "/Rameez-Khan/static/media/digiverse-logo.fe9dcc9550f70e234662.png",
     "static/media/Ariss-site.png": "/Rameez-Khan/static/media/Ariss-site.472d6bcc8c62d6704a9a.png",
@@ -23,6 +24,7 @@
     "static/media/silverfork-logo.png": "/Rameez-Khan/static/media/silverfork-logo.e5f10e6a9930ba9ff5fc.png",
     "static/media/gazeebo-logo.png": "/Rameez-Khan/static/media/gazeebo-logo.81ddf129580121c6f685.png",
     "static/media/jquery logo.svg": "/Rameez-Khan/static/media/jquery logo.8e1953b26f8ed917a5cfddefbc2a5586.svg",
+    "static/media/CV.svg": "/Rameez-Khan/static/media/CV.fb4fc17a20174dbfe32ebbca07bb2048.svg",
     "static/media/instagram.svg": "/Rameez-Khan/static/media/instagram.6a496f8da422128d1fb9dcf4cbd4ba59.svg",
     "static/media/github logo.svg": "/Rameez-Khan/static/media/github logo.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/bootstrap logo.svg": "/Rameez-Khan/static/media/bootstrap logo.cf4064cf8ddbfd5926367443b3f76c49.svg",
@@ -35,12 +37,12 @@
     "static/media/Linkdin.svg": "/Rameez-Khan/static/media/Linkdin.dee5904d6b5b584fefd92bebdf3a15cf.svg",
     "static/media/html logo.svg": "/Rameez-Khan/static/media/html logo.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/Twiter.svg": "/Rameez-Khan/static/media/Twiter.44aa4afd27bc3f0a521ee8ef179d356d.svg",
-    "main.77cf6875.css.map": "/Rameez-Khan/static/css/main.77cf6875.css.map",
-    "main.d6f21f5e.js.map": "/Rameez-Khan/static/js/main.d6f21f5e.js.map",
+    "main.257d91e0.css.map": "/Rameez-Khan/static/css/main.257d91e0.css.map",
+    "main.667a5add.js.map": "/Rameez-Khan/static/js/main.667a5add.js.map",
     "453.ace21015.chunk.js.map": "/Rameez-Khan/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77cf6875.css",
-    "static/js/main.d6f21f5e.js"
+    "static/css/main.257d91e0.css",
+    "static/js/main.667a5add.js"
   ]
 }
