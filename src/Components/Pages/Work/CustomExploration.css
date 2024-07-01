@@ -1,0 +1,75 @@
+:root {
+  --cards: 12;
+  --cardHeight: 87vh;
+  --cardTopPadding: 3.5em;
+  --cardMargin: 4vw;
+}
+
+.main-explore-container {
+  padding: 10vh 0 10vh 0;
+}
+
+#cards {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card1 {
+  --index: 1;
+}
+#card2 {
+  --index: 2;
+}
+#card3 {
+  --index: 3;
+}
+#card4 {
+  --index: 4;
+}
+
+.cardBox {
+  position: sticky;
+  top: 10%;
+  width: 75vw;
+}
+
+.card-body {
+  border-radius: 36px;
+  box-shadow: inset 0 -3px #0000000d, inset 0 0 0 2px #fff,
+    inset 0 4px 2px #0000000f, inset 0 0 24px 4px #0000000a, 0 1px 3px #0000001f;
+  height: var(--cardHeight);
+  width: 100%;
+  transition: all 0.5s;
+  padding: 20px !important;
+  background: #fafafa;
+}
+
+.card-body img {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  object-fit: cover;
+}
+.card-body video {
+  width: 100%;
+  height: 100%;
+  border-radius: 22px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 769px) {
+  .main-explore-container {
+    padding: 00vh 0 10vh 0;
+  }
+  .card-body {
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 575px) {
+  .cardBox {
+    width: 80vw;
+  }
+}

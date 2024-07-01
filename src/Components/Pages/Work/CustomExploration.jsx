@@ -1,17 +1,20 @@
 import React, { useEffect } from "react";
-import "./Exploration.css";
+import "./CustomExploration.css";
 import { Container } from "react-bootstrap";
-import Res1 from "../../Assets/res1.png";
-import Res2 from "../../Assets/res2.png";
+import Res1 from "../Assets/res1.png";
+import Res2 from "../Assets/res2.png";
+import DocumentAI from "../Assets/DocumentAI.png";
+import Res4 from "../Assets/res4.png";
+import Res5 from "../Assets/res5.png";
+import Res6 from "../Assets/res6.png";
+import Res7 from "../Assets/res7.png";
 
-import Digiverse from "../../Assets/digiverse.png";
-import Crisfood from "../../Assets/crisfood.png";
-import Unity from "../../Assets/unity.png";
-import Ariss from "../../Assets/ariss.png";
-import Glory from "../../Assets/glory.png";
+import Ad from "../Assets/ad.png";
+import Glory from "../Assets/glory.png";
+import TerraceV from '../Assets/terrace.mp4'
 
 
-const Exploration = () => {
+const CustomExploration = () => {
   useEffect(() => {
     const handleScroll = () => {
       const cards = document.querySelectorAll(".cardBox");
@@ -61,10 +64,7 @@ const Exploration = () => {
 
   return (
     <Container>
-      <div id="Explorations" className="main-explore-container">
-        <div className="exploration-title">
-          <h2>A Gallery of <br />Past UI Designs</h2>
-        </div>
+      <div className="main-explore-container">
         <ul id="cards">
           <li className="cardBox" id="card1">
             <div className="card-body">
@@ -73,7 +73,12 @@ const Exploration = () => {
           </li>
           <li className="cardBox" id="card2">
             <div className="card-body">
-              <img src={Digiverse} alt="" />
+              <img src={Ad} alt="" />
+            </div>
+          </li>
+          <li className="cardBox" id="video">
+            <div className="card-body">
+              <video src={TerraceV} autoPlay muted></video>
             </div>
           </li>
           <li className="cardBox" id="card3">
@@ -81,14 +86,14 @@ const Exploration = () => {
               <img src={Res2} alt="" />
             </div>
           </li>
-          <li className="cardBox" id="card4">
+          <li className="cardBox" id="card5">
             <div className="card-body">
-              <img src={Crisfood} alt="" />
+              <img src={DocumentAI} alt="" />
             </div>
           </li>
-          <li className="cardBox" id="card6">
+          <li className="cardBox" id="card7">
             <div className="card-body">
-              <img src={Ariss} alt="" />
+              <img src={Res4} alt="" />
             </div>
           </li>
           <li className="cardBox" id="card8">
@@ -96,9 +101,19 @@ const Exploration = () => {
               <img src={Glory} alt="" />
             </div>
           </li>
-          <li className="cardBox" id="card10">
+          <li className="cardBox" id="card9">
             <div className="card-body">
-              <img src={Unity} alt="" />
+              <img src={Res5} alt="" />
+            </div>
+          </li>
+          <li className="cardBox" id="card11">
+            <div className="card-body">
+              <img src={Res6} alt="" />
+            </div>
+          </li>
+          <li className="cardBox" id="card12">
+            <div className="card-body">
+              <img src={Res7} alt="" />
             </div>
           </li>
         </ul>
@@ -107,4 +122,4 @@ const Exploration = () => {
   );
 };
 
-export default Exploration;
+export default CustomExploration;

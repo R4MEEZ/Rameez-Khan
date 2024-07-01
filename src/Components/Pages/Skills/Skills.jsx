@@ -9,6 +9,9 @@ import bootlogo from "../../Assets/bootstrap logo.svg";
 import jquerylogo from "../../Assets/jquery logo.svg";
 import githublogo from "../../Assets/github logo.svg";
 import figmalogo from "../../Assets/figma logo.svg";
+import reactlogo from "../../Assets/react-logo.svg";
+import reduxlogo from "../../Assets/redux-logo.svg";
+import nextlogo from "../../Assets/next-logo.svg";
 import { useIntersectionObserver } from "../../Hooks/useIntersectionObserver";
 
 const skillsData = [
@@ -23,6 +26,18 @@ const skillsData = [
   {
     name: "JavaScript",
     svg: <img src={jslogo} alt="JavaScript Logo" className="img" />,
+  },
+  {
+    name: "React.Js",
+    svg: <img src={reactlogo} alt="React Logo" className="img" />,
+  },
+  {
+    name: "Redux",
+    svg: <img src={reduxlogo} alt="Redux Logo" className="img" />,
+  },
+  {
+    name: "Next.Js",
+    svg: <img src={nextlogo} alt="Next Logo" className="img" />,
   },
   {
     name: "Bootstrap",
@@ -42,13 +57,14 @@ const skillsData = [
   },
   {
     name: "Figma",
-    svg: <img src={figmalogo} alt="Figma Logo" className="img" />,
-  },
+    svg: <img src={figmalogo} alt="figma Logo" className="img" />
+  }
 ];
 
 export default function Skills() {
   const [myRef1, isVisible1, hasBeenVisible1] = useIntersectionObserver();
   const [myRef2, isVisible2, hasBeenVisible2] = useIntersectionObserver();
+  const [myRef3, isVisible3, hasBeenVisible3] = useIntersectionObserver();
 
   return (
     <Container>
@@ -57,8 +73,7 @@ export default function Skills() {
           Skills in <br />
           my arsenal
         </h2>
-        <div className="skills-list"
-        >
+        <div className="skills-list">
           <div
             ref={myRef1}
             className={`skills-list-1 ${
@@ -82,7 +97,24 @@ export default function Skills() {
               isVisible2 && hasBeenVisible2 ? "Yes" : ""
             }`}
           >
-            {skillsData.slice(4).map((skill, index) => (
+            {skillsData.slice(4,8).map((skill, index) => (
+              <div className="skills">
+                <div className="skills-card">
+                  {skill.svg}
+                  <div className="textBox">
+                    <p className="text head">{skill.name}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div
+            ref={myRef3}
+            className={`skills-list-3 ${
+              isVisible3 && hasBeenVisible3 ? "Yes" : ""
+            }`}
+          >
+            {skillsData.slice(8).map((skill, index) => (
               <div className="skills">
                 <div className="skills-card">
                   {skill.svg}
