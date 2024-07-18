@@ -4,7 +4,7 @@ import "./Skills.css";
 import htmllogo from "../../Assets/html logo.svg";
 import npmlogo from "../../Assets/npm logo.svg";
 import csslogo from "../../Assets/css logo.svg";
-import jslogo from "../../Assets/javscript logo.svg";
+import jslogo from "../../Assets/javascript logo.svg";
 import bootlogo from "../../Assets/bootstrap logo.svg";
 import jquerylogo from "../../Assets/jquery logo.svg";
 import githublogo from "../../Assets/github logo.svg";
@@ -46,18 +46,6 @@ const skillsData = [
   {
     name: "jQuery",
     svg: <img src={jquerylogo} alt="jQuery Logo" className="img" />,
-  },
-  {
-    name: "GitHub",
-    svg: <img src={githublogo} alt="GitHub Logo" className="img" />,
-  },
-  {
-    name: "npm",
-    svg: <img src={npmlogo} alt="npm Logo" className="img" />,
-  },
-  {
-    name: "Figma",
-    svg: <img src={figmalogo} alt="figma Logo" className="img" />
   }
 ];
 

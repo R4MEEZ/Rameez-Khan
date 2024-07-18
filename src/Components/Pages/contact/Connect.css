@@ -9,7 +9,7 @@
 }
 
 .main-connect-container {
-  height: 96vh;
+  height: 82vh;
   width: 80vw;
   background: radial-gradient(
     circle,
@@ -21,7 +21,7 @@
     inset 0 4px 2px #0000000f, inset 0 0 24px 4px #0000000a, 0 1px 3px #0000001f;
   margin: 14px 0px;
   padding: 0 6vw;
-  padding-top: 18vh;
+  padding-top: 9vh;
 }
 
 .connect-top {

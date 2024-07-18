@@ -12,7 +12,7 @@ import Story from "./Components/Pages/about/Story";
 import Connect from "./Components/Pages/contact/Connect";
 import Landing from "./Components/Pages/home/Landing";
 import ReactGA from "react-ga4";
-// import Test from "./Components/Pages/Skills/Test"
+import structuredData from "./Components/Stuctured-Data";
 // import Loading from "./Components/Pages/home/Loading";
 
 function App() {
@@ -20,9 +20,9 @@ function App() {
   return (
     <div className="App">
       <Helmet>
+      <script type="application/ld+json">{JSON.stringify(structuredData)}</script>
         <meta property="og:title" content="Rameez Khan" />
         <meta property="og:url" content="https://r4meez.github.io/Rameez-Khan/" />
-        {/* <meta property="og:image" content={siteImg} /> */}
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_GB" />
         <meta property="og:description" content="Hi, I am a Front-End Developer, This is my portfolio" />
@@ -37,7 +37,6 @@ function App() {
       <Review />
       <Exploration />
       <Connect />
-      {/* <Test/> */}
     </div>
   );
 }

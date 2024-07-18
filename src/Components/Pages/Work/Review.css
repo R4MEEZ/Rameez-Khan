@@ -1,5 +1,4 @@
-
-.container{
+.container {
   overflow: hidden;
 }
 
@@ -93,10 +92,9 @@
 }
 
 .reviews-bottom {
-  background-color: #fbfcfd;
+  background-color: #fafafa;
   display: flex;
   justify-content: space-between;
-  height: 97px;
   padding: 24px 50px;
 }
 
@@ -125,11 +123,15 @@
 .pfp-img {
   width: 80px;
   height: 80px;
+  border-radius: 12px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
 }
 
 .pfp-img img {
   border-radius: 8px;
-  width: 100%;
+  width: 75%;
   height: 100%;
 }
 
@@ -189,6 +191,7 @@
   .pfp-img {
     width: 50px;
     height: 50px;
+    border-radius: 8px;
   }
 
   .reviews-top {
@@ -196,17 +199,17 @@
     gap: 10px;
   }
 
-  .reviews-company{
+  .reviews-company {
     width: 40px;
     height: 40px;
   }
 
-  .reviews-bottom{
+  .reviews-bottom {
     margin-top: 18px;
     padding: 12px 33px;
   }
 
-  .reviews-name{
+  .reviews-name {
     font-size: 13px;
   }
 }

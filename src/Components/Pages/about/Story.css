@@ -1,8 +1,4 @@
 /********    Story     ********/
-@font-face {
-  font-family: "SF-Bold";
-  src: url("../../Assets/SF-Bold.otf") format("opentype");
-}
 
 .story-parent {
   display: flex;
@@ -11,6 +7,7 @@
 }
 
 .story-container {
+  font-family: "Inter Tight", "Inter Tight Placeholder", "san-serif";
   width: 80vw;
   display: flex;
   justify-content: center;
@@ -51,7 +48,6 @@
 
 .story-img img {
   width: 100%;
-  height: 100%;
 }
 
 .story-text {

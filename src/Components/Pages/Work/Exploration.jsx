@@ -60,7 +60,7 @@ const Exploration = () => {
   }, []);
 
   return (
-    <Container>
+    // <Container>
       <div id="Explorations" className="main-explore-container">
         <div className="exploration-title">
           <h2>A Gallery of <br />Past UI Designs</h2>
@@ -103,7 +103,7 @@ const Exploration = () => {
           </li>
         </ul>
       </div>
-    </Container>
+    // </Container>
   );
 };
 

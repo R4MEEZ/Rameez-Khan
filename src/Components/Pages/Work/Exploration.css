@@ -6,7 +6,7 @@
 }
 
 .main-explore-container {
-  padding: 20vh 0;
+  padding: 7vh 0;
 }
 
 .exploration-title h2 {
@@ -106,7 +106,7 @@
 
 @media screen and (max-width: 450px) {
   .cardBox {
-    position: static;
+
     top: 20%;
     width: 360px;
   }
@@ -121,36 +121,17 @@
   :root {
     --cardHeight: 230px;
   }
-}
-@media screen and (max-width: 450px) {
-  .cardBox {
-    position: static;
-    top: 20%;
-    width: 360px;
-    /* border-radius: 26px; */
-  }
-  
   .card-body{
-    padding: 13px !important;
+    padding: 10px !important;
+    border-radius: 18px;
   }
 
   .card-body img{
-    border-radius: 23px;
-  }
-
-  .exploration-title h2 {
-    text-align: center;
-    font-size: 45px;
-    font-family: "Inter Tight", "Inter Tight Placeholder", "san-serif";
-    margin-bottom: 100px;
-  }
-
-  :root {
-    --cardHeight: 230px;
+    border-radius: 8px;
   }
 }
 
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
   .cardBox {
     position: static;
     top: 20%;
@@ -171,4 +152,4 @@
   :root {
     --cardHeight: 150px;
   }
-}
+} */

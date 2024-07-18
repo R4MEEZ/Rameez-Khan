@@ -7,6 +7,7 @@ import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Review.css";
+import profileImg from "../../Assets/profile.svg"
 import digiverse from "../../Assets/digiverse-logo.png";
 
 // import required modules
@@ -36,8 +37,8 @@ export default function Review() {
                 <div className="reviews-top">
                   <div className="pfp-img">
                     <img
-                      src="https://images.unsplash.com/photo-1714120103575-7513850daf9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D"
-                      alt=""
+                      src={profileImg}
+                      alt="profile"
                     />
                   </div>
                   <div className="review-text">
@@ -63,21 +64,18 @@ export default function Review() {
               <div className="reviews-content">
                 <div className="reviews-top">
                   <div className="pfp-img">
-                    <img
-                      src="https://images.unsplash.com/photo-1714120103575-7513850daf9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D"
-                      alt=""
+                  <img
+                      src={profileImg}
+                      alt="profile"
                     />
                   </div>
                   <div className="review-text">
-                    Rameez exceeded our expectations on implementation and
-                    collaboration. His detail orientation and deep
-                    implementation expertise elevated our designs. Rameez truly
-                    owns his craft.
+                  Rameez has been fantastic to collaborate with and continues to support us on many projects. He has a very high level of craft and is easy to work with.
                   </div>
                 </div>
                 <div className="reviews-bottom">
                   <div className="reviews-name">
-                    Amash Ansari
+                    Arif Ansari
                     <br />
                     <span>Executive</span>
                   </div>
@@ -91,23 +89,20 @@ export default function Review() {
               <div className="reviews-content">
                 <div className="reviews-top">
                   <div className="pfp-img">
-                    <img
-                      src="https://images.unsplash.com/photo-1714120103575-7513850daf9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D"
-                      alt=""
+                  <img
+                      src={profileImg}
+                      alt="profile"
                     />
                   </div>
                   <div className="review-text">
-                    Rameez exceeded our expectations on implementation and
-                    collaboration. His detail orientation and deep
-                    implementation expertise elevated our designs. Rameez truly
-                    owns his craft.
+                  Rameez combines outstanding animations, pixel accurate implementation, and great performance at the highest level. Communication is enormously fast & effective.
                   </div>
                 </div>
                 <div className="reviews-bottom">
                   <div className="reviews-name">
-                    Amash Ansari
+                    Salman Shaikh
                     <br />
-                    <span>Executive</span>
+                    <span>Senior Developer</span>
                   </div>
                   <div className="reviews-company">
                     <img src={digiverse} alt="" />
@@ -119,23 +114,20 @@ export default function Review() {
               <div className="reviews-content">
                 <div className="reviews-top">
                   <div className="pfp-img">
-                    <img
-                      src="https://images.unsplash.com/photo-1714120103575-7513850daf9c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDh8dG93SlpGc2twR2d8fGVufDB8fHx8fA%3D%3D"
-                      alt=""
+                  <img
+                      src={profileImg}
+                      alt="profile"
                     />
                   </div>
                   <div className="review-text">
-                    Rameez exceeded our expectations on implementation and
-                    collaboration. His detail orientation and deep
-                    implementation expertise elevated our designs. Rameez truly
-                    owns his craft.
+                  Rameez has been exceptional both in his technical execution and how he collaborates. all of his builds are incredibly fast and clean, as well as polished and beautiful.
                   </div>
                 </div>
                 <div className="reviews-bottom">
                   <div className="reviews-name">
-                    Amash Ansari
+                    Aaquib Kuwari
                     <br />
-                    <span>Executive</span>
+                    <span>Senior Developer</span>
                   </div>
                   <div className="reviews-company">
                     <img src={digiverse} alt="" />
