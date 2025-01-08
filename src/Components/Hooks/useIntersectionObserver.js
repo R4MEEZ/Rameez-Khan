@@ -15,7 +15,7 @@ export const useIntersectionObserver = () => {
         }
       },
       {
-        threshold: 0, // Trigger as soon as the first pixel is in the viewport
+        threshold: 0,
       }
     );
 

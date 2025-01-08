@@ -291,13 +291,13 @@
   .customnav {
     padding: 0px 0px 0px 22px;
     width: 335px;
-    height: 50px;
+    height: 45px;
     justify-content: normal;
     padding-right: 17px;
   }
 
   .customnav.shrinked {
-    width: 110px;
+    width: 112px;
   }
 
   .menu {
