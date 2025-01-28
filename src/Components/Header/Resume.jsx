@@ -1,6 +1,6 @@
 import React from "react";
 import ReactGA from "react-ga4";
-import resume from "../Assets/Rameez Khan Resume 2025.pdf";
+import resume from "../Assets/Rameez Khan's Resume 2025.pdf";
 import "./Resume.css";
 import download from "../Assets/CV.svg"
 
